@@ -1,0 +1,963 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "d9f24d35-0afb-4af4-8724-16c2da1bc831",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    " l =  [1,2,3,4,5,6,8,9]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "cc1ffa14-e32a-4985-8b2e-6d3bdc600ab5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1 <class 'int'>\n",
+      "2 <class 'int'>\n",
+      "3 <class 'int'>\n",
+      "4 <class 'int'>\n",
+      "5 <class 'int'>\n",
+      "6 <class 'int'>\n",
+      "8 <class 'int'>\n",
+      "9 <class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l :\n",
+    "    print(i , type(i))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "337ec90f-a99b-4d1e-9742-566fdb59a432",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1 = [\"rach\" , \"kumar\" , \"krish\", \"mohan\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "3cd25df6-f7c6-4aa3-a491-3f1bf3189caf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rach <class 'str'>\n",
+      "kumar <class 'str'>\n",
+      "krish <class 'str'>\n",
+      "mohan <class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l1:\n",
+    "    print(i , type(i))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "ffc28c75-2394-4a2c-adfe-11118bef687c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['rach', 'kumar', 'krish', 'mohan']"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "0170a232-fd42-409a-9997-4b0aa9fe3fb6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rach\n",
+      "kumar\n",
+      "krish\n",
+      "mohan\n",
+      "if for loop is able to complete itsels then only else will execute\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l1:\n",
+    "    print(i)\n",
+    "else:\n",
+    "    print(\"if for loop is able to complete itsels then only else will execute\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "aaae2571-a08d-488b-8801-5930cd400be5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rach\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l1:\n",
+    "    if i == \"kumar\":\n",
+    "        break\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "5287f671-24c5-42e3-bccd-8b5dda5da2aa",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['rach', 'kumar', 'krish', 'mohan']"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "69f70de8-e01b-426c-b7b8-8001beb95308",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rach\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l1 :\n",
+    "    if i == \"kumar\":\n",
+    "        break\n",
+    "    print(i)\n",
+    "else:\n",
+    "    print(\"execute this if for loop is able to complete itself\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "eb684f87-1f37-4d42-8888-b267412392c3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['rach', 'kumar', 'krish', 'mohan']"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "6289b869-ebd4-41a8-884a-cb2a28a382b3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rach\n",
+      "krish\n",
+      "mohan\n",
+      "execute this if for loop is able to complete itself\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l1 :\n",
+    "    if i == \"kumar\":\n",
+    "        continue\n",
+    "    print(i) \n",
+    "else:\n",
+    "    print(\"execute this if for loop is able to complete itself\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "4b1f8bfe-77d5-45fc-b4fd-25ee726ae9aa",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "range(0, 5)"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "range(5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "1e9301ff-4980-4ae4-b72f-53bb4a35ebe1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0, 1, 2, 3, 4]"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(range(5))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "a9d65c0c-def7-48e2-9c9a-e78b79093ff6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0, 1, 2, 3, 4]"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(range(0,5,1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "f2218844-abe1-496a-9081-e9c7ff328a1f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(range(0,20,2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "56d8bfdf-4aa5-4765-a152-604dd7b59cc3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[-10, -9, -8, -7, -6, -5, -4, -3, -2, -1]"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(range(-10,0))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "1c1d1bae-32c6-4b1e-b6d0-f8cfa0a847bb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['rach', 'kumar', 'krish', 'mohan']"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "7bda8328-c395-439e-9214-9f3acdfc6767",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(l1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "a4f22fb0-fc84-45e4-b269-2e1f07b2539b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0, 1, 2, 3]"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(range(len(l1)))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "c31e2b3a-af64-4976-be30-c1ccc96da322",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rach\n",
+      "kumar\n",
+      "krish\n",
+      "mohan\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(len(l1)):\n",
+    "    print(l1[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "ad5f8a76-9729-4c62-b3b2-577438fe75de",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[3, 2, 1, 0]"
+      ]
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(range(len(l1)-1,-1,-1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "38a8bc2a-70e4-4d5d-85f6-6da916d35f0e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mohan\n",
+      "krish\n",
+      "kumar\n",
+      "rach\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(len(l1)-1,-1,-1):\n",
+    "    print(l1[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "6ef90280-e93d-4c39-82e2-f352669a4df3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l2 = [23, 56 , 78, 98, 87  ,76 ,34, 24 ,45 ,8, 9 ,7, 56]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "b8fca358-dfbd-4f47-b51e-448802017538",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0, 2, 4, 6, 8, 10, 12]"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(range(0,len(l2),2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "6e777e70-eb74-4062-b78a-569c0f6af378",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "23\n",
+      "78\n",
+      "87\n",
+      "34\n",
+      "45\n",
+      "9\n",
+      "56\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(0, len(l2) , 2):\n",
+    "    print(l2[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "006aee22-3bb0-4943-ab11-494fe24fa447",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "23"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l2[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "c96fa1cd-0f54-4199-bf21-688b53936914",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l = [1,5,8,9,6,5,2,1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "3f9ee61c-c507-4db7-bb4c-1a2d49469f09",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "37"
+      ]
+     },
+     "execution_count": 44,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "sum(l)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "b5473238-38b0-4663-ab80-ba8e5408d5c5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "37"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "result = 0\n",
+    "for i in l:\n",
+    "    result = result + i\n",
+    "result"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "e5172b03-4a29-458e-b64b-a4f3545e798e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t = (1,2,3,4,5,6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "cf9a7793-8832-4f87-a5e7-92513db7665c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in t:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "2168e329-47eb-44bf-80da-abc3066605c0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "21"
+      ]
+     },
+     "execution_count": 48,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "result = 0\n",
+    "for i in t:\n",
+    "    result = result+ i\n",
+    "result"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "ba116fdc-dc05-4ba0-a04e-c87c84f62fed",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = {1,3,5,6,\"rach\",\"pwskill\"}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "6d56b7f9-c38d-49d2-b76f-ee8572b8d476",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rach\n",
+      "1\n",
+      "pwskill\n",
+      "3\n",
+      "5\n",
+      "6\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in s:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "f8637209-def9-4d1f-b469-1f02b6ed89df",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1 = \"pwskill\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "8a62debe-a789-4cd6-b976-bc60ae073191",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "p\n",
+      "w\n",
+      "s\n",
+      "k\n",
+      "i\n",
+      "l\n",
+      "l\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in s1:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "52680cd3-0a8b-468e-a609-e791ecace0af",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d = {'name': \"rach\", \"class\" : \"data science master\" ,\n",
+    "     \"topic\" : [\"python\" , \"stats\" ,\"machine learning\" , \"DL\", \"CV\" ,\"NLP\" ,\"resume\" , \"interview\"]}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "f288bef5-147d-4b8c-9e0b-9efcd3f216af",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'name': 'rach',\n",
+       " 'class': 'data science master',\n",
+       " 'topic': ['python',\n",
+       "  'stats',\n",
+       "  'machine learning',\n",
+       "  'DL',\n",
+       "  'CV',\n",
+       "  'NLP',\n",
+       "  'resume',\n",
+       "  'interview']}"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "72f2ad53-32c1-4615-91aa-3a464417348c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'rach'"
+      ]
+     },
+     "execution_count": 57,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d[\"name\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "083a95ee-31e2-405d-b142-b6c1a864a93f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_keys(['name', 'class', 'topic'])"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d.keys()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "cbd63b4b-6d6b-4ab9-8e25-91cf2a9a1569",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rach\n",
+      "data science master\n",
+      "['python', 'stats', 'machine learning', 'DL', 'CV', 'NLP', 'resume', 'interview']\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in d.keys():\n",
+    "    print(d[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "800221e1-c525-4188-a6e8-9cd8f7d22922",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_values(['rach', 'data science master', ['python', 'stats', 'machine learning', 'DL', 'CV', 'NLP', 'resume', 'interview']])"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d.values()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "2b400920-4afa-4d2e-9ea4-0c4596c86db0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rach\n",
+      "data science master\n",
+      "['python', 'stats', 'machine learning', 'DL', 'CV', 'NLP', 'resume', 'interview']\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in d.values():\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "8127672c-6e66-477c-9d74-aa011a3c84a0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_items([('name', 'rach'), ('class', 'data science master'), ('topic', ['python', 'stats', 'machine learning', 'DL', 'CV', 'NLP', 'resume', 'interview'])])"
+      ]
+     },
+     "execution_count": 65,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d.items()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "5e92b9ed-7cf9-445a-84d5-f73782db6716",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "('name', 'rach')\n",
+      "('class', 'data science master')\n",
+      "('topic', ['python', 'stats', 'machine learning', 'DL', 'CV', 'NLP', 'resume', 'interview'])\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in d.items():\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dad284b0-1af1-4397-a4e6-b7fdc89014b6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5180761f-7514-4f09-9e19-8d88f0f59a90",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2a13946d-b952-4085-9184-95b7dc978605",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a6bd8fcc-a742-41a2-b2c5-6b93926db701",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
